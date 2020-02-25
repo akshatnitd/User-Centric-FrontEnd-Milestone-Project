@@ -1,0 +1,30 @@
+
+/*............................................Heading*/
+.container-fluid{
+	background-color: #000080;
+	position: relative;
+	letter-spacing: 2px;
+	padding: 10px 10px 10px 10px;
+}
+
+.nav-title {
+	display: inline-block;
+	font-size: 18px;
+	font-family: 'Abril Fatface', cursive;
+	color: #fff;
+	
+}
+
+.nav-links {
+	display: inline-block;
+	float: right;
+	font-size: 18px;
+	font-family: 'Abril Fatface', cursive;
+}
+
+.nav-links>a {
+	display: inline-block;
+	text-decoration: none;
+	
+}	
+
