@@ -28,10 +28,6 @@
   z-index: 100;
 }
 
-.navbar-dark .navbar-nav .nav-link> hover a {
-  background-color: red;
-}
-
 .fa-bars{
 	color: rgb(255,129,82);
 	text-shadow:2px 2px 3px black;
@@ -42,7 +38,7 @@
 /*............................................Home Page*/
 .img-fluid{
   width: 100%;
-  height: 93vh;
+  height: 92vh;
 }
 
 .img-responsive{
@@ -275,8 +271,7 @@ ul {
 .my-form textarea,
 .my-form button {
   margin-top: 15px;
-  width: 100%;
-  line-height: 1.5;
+  width: 50%;
   padding: 15px 10px;
   border: 1px solid var(--borderFormEls);
   border-color: #1A237E;
@@ -287,11 +282,10 @@ ul {
   transition: background-color 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25),
   transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
   text-align: center;
-  height: 20px;
 }
 
 .my-form textarea {
-  height: 258px;
+  height: 121px;
   text-align: center;
 }
 
@@ -333,7 +327,7 @@ ul {
 }
  
 .my-form button > * {
-  height: 20px;
+  height: 25px;
   display: inline-block;
   width: 100%;
   transition: transform 0.4s ease-in-out;
@@ -356,7 +350,14 @@ ul {
 .my-form button:enabled:hover .front,
 .my-form button:focus .front {
   transform: translateX(110%);
-  
+}
+
+.form-logo {
+  float: right;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-right: -50px;
+  width: 550px;
 }
 
 /*............................................Footer*/
@@ -419,6 +420,10 @@ p {
 	display: none;
 }
 
+.form-logo {
+  display: none;
+}
+
 .column {
 	width: 100%;
 	display: block;
@@ -442,7 +447,16 @@ p {
 .navbar-brand{
 	font-family: 'Concert One', cursive;
 	font-size: 50px;
+	text-align: left;
+	margin-left: 55%;
 }
+
+.custom-toggler.navbar-toggler {
+  margin-right: 100%;
+  vertical-align: middle;
+  margin-top: -50px;
+}
+
 
 .navbar-dark .navbar-nav .nav-link {
 	position: relative;
@@ -452,14 +466,34 @@ p {
 }
 
 .footer {
-  color: black;
-  width:100%;
-  padding:0;
-  clear:both;
-  bottom:0;
-  position: absolute;  
+width: 100%;
+bottom: 0px;
+text-align: center;
+}
+
+.my-form select,
+.my-form input,
+.my-form textarea,
+.my-form button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 15px 10px;
+  border: 1px solid var(--borderFormEls);
+  border-color: #1A237E;
+  border-radius: 5px;
+  color: white;
+  background: var(--bgFormEls);
+  background-color: #2196f3;
+  transition: background-color 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25),
+  transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+  text-align: center;
 }
 }
+
+
+
+
+
 
 
 
