@@ -26,7 +26,14 @@
     "run": {
         "configs": {
             "@inited": "true",
-            "json()": {}
+            "json()": {
+                "footer": {
+                    "command": "assets/css/style.css",
+                    "name": "footer",
+                    "runner": "Shell command",
+                    "toolbar": true
+                }
+            }
         }
     },
     "welcome": {
