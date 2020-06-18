@@ -126,6 +126,7 @@ th {
 	display: grid;
 	margin-top: 5px;
 	margin-bottom: 6px;
+	
 	/* Width of columns */
 	grid-template-columns: 25% 25% 25% 25%;
 }
@@ -276,6 +277,16 @@ textarea {
 
 ul {
 	list-style: none;
+}
+
+.logo-responsive {
+	display: block;
+	
+}
+
+.logo-fluid {
+	width: 100px;
+	height: 92vh;
 }
 
 .my-form select,
