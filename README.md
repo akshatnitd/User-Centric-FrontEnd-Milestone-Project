@@ -1,10 +1,14 @@
 # User Centric Milestone Project
 
-One or two paragraphs providing an overview of your project.
+- This is a website based on one of my favourtie bands The Small Faces.
+- T
 
 Essentially, this part is your sales pitch.
  
 ## UX
+
+ - This site is for current fans of the Small Faces as well as for new fans just getting in to   their music for the first time.
+ - The Band page has biographies for each member of the band provdiding basic informaiton about each musician.
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
@@ -20,7 +24,11 @@ This section is also where you would share links to any wireframes, mockups, dia
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
+- A standard nav bar is used to navigate around website which is visible on all devices above 600px. Also clicking
+on 'The Small Faces' brings the user back to the homepage. For all devices under 600px the nav bar collaspses in to 
+a hamburber style drop down menu, the nav becomes visible when clicking on the hamburger icon.
+For mobile devices the main colour image on the homepage changes to a back and white one. 
+
 - ...
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
@@ -62,6 +70,11 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+- Internet Explorer
+  All pages display correctly in Internet Explorer as they do in Google Chrom apart from one, the Store Page. The Store Page is built using a Grid system which is not widely used in IE, therefore the Store Page displays as one singular column as opposed to four, also the audio players styling has been stripped out and offset to the left.
+
+- Firefox
 
 ## Deployment
 
