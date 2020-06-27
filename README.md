@@ -25,8 +25,7 @@ In this section, you should go over the different parts of your project, and des
  
 ### Existing Features
 - A standard nav bar is used to navigate around website which is visible on all devices above 600px. Also clicking
-on 'The Small Faces' brings the user back to the homepage. For all devices under 600px the nav bar collaspses in to 
-a hamburber style drop down menu, the nav becomes visible when clicking on the hamburger icon.
+on 'The Small Faces' brings the user back to the homepage. For all devices under 600px the nav bar collaspses in to a hamburber style drop down menu, the nav becomes visible when clicking on the hamburger icon.
 For mobile devices the main colour image on the homepage changes to a back and white one. 
 
 - ...
@@ -65,16 +64,15 @@ For any scenarios that have not been automated, test the user stories manually a
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 - Internet Explorer
-  All pages display correctly in Internet Explorer as they do in Google Chrom apart from one, the Store Page. The Store Page is built using a Grid system which is not widely used in IE, therefore the Store Page displays as one singular column as opposed to four, also the audio players styling has been stripped out and offset to the left.
+  All pages display correctly in Internet Explorer as they do in Google Chrome apart from one, the Store Page. The Store Page is built using a Grid system which is not widely used in IE, therefore the Store Page displays as one singular column as opposed to four, also the audio players styling has been stripped out and offset to the left.
 
-- Firefox
+- Firefox - Developer Edition
+- All pages displayed correctly compared to Google Chrome
+- 
+- Microsoft Edge
+- Some of the stying on the Audio Player has been stripped out but otherwise all pages display the same when  compared to Google Chrome.
+- 
 
 ## Deployment
 
@@ -98,4 +96,5 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- My various mentors for their continued support throughout this project.
+- Code instisute for their encouragement, kind words and support when this project (due to time constraints become  quite tough.)
