@@ -45,6 +45,16 @@ In addition, you may also use this section to discuss plans for additional featu
     - The project uses **CSS** to style web pages.
 - [Bootstrap 4.4.1](https://getbootstrap.com/)
     - The project uses **Bootstrap** to create responsive mobile first projects.
+- [Font Awesome](https://fontawesome.com)
+    - Font Awesome used to create hamburger button for mobile responsive nav.
+- [Google Fonts](https://fonts.google.com/)
+    - Google Fonts 'Abril Fatface', 'Roboto', 'Concert One', 'Fjalla One' imported in to style.css and used throughout the site.
+- [Adobe XD](www.adobe.com › products › xd)
+    - Adobe XD used to create mockups of all pages.
+- [Github](https://github.com/)
+    - Github used as a respositry to store all my code.
+- [Amazon AWS Cloud9](https://aws.amazon.com/cloud9/)
+    - Amazon AWS Cloud9 used to write all my html and css code. 
 
 ## Testing
 
